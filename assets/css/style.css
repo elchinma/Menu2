@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  #Products {
+    padding: 50px 0;
+  }
+  
+  #Products .product {
+    padding: 10px 20px;
+    border: 3px ridge gray;
+    border-radius: 5%;
+  }
+  
+  #Products .product .image {
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #Products .product .image img {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  .total-price {
+    font-size: 15px;
+  }
+
+.menu {
+  position: absolute;
+  top: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 2%
+}
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  border-radius: 5%;
+  color: white;
+  background-color: rgb(39, 157, 16);
+  padding: 10px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+
+  transform: translate(-2em, -1em);
+
+  transition: color .5s linear;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  color: rgb(75, 75, 75);
+}
+
+.dropdown {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+.dropdown-content {
+  width: 700px;
+  height: 500px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+  transform: translate(-61em, 0em);
+}
+
+.dropdown-content a {
+  margin: 0 20px;
+  color: black;
+  padding: 5px 1px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.iphone {
+  border: solid 2px black;
+  border-radius: 5%;
+  margin: 15px 15px 15px 15px;
+}
+
+.inner_iphone {
+  transform: translate(25em, -21em);
+}
+
+.cena {
+  transform: translate(25em, -21em);
+}
+
+.cena2 {
+  transform: translate(33em, -25em);
+}
+
+.icon_cart {
+  transform: translate(2em, 4em);
+}
+
+.total_price2 {
+  font-size: 15px;
+  width: 100px;
+
+  transform: translate(37em, 1em);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
